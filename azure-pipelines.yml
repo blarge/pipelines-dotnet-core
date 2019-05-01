@@ -19,7 +19,6 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 - script: dotnet restore
 
-steps:
 - task: DotNetCoreCLI@2
   displayName: 'Install dotnetsay'
   inputs:
