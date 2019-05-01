@@ -26,3 +26,4 @@ steps:
     projects: '**/*.csproj'
     custom: tool
     arguments: 'install -g dotnetsay'
+    arguments: 'version 2.1.4'
