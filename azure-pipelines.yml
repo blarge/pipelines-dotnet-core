@@ -29,6 +29,6 @@ steps:
     
 - task: AzureRmWebAppDeployment@3
   inputs:
-    azureSubscription: '<Azure service connection>'
-    WebAppName: '<Name of web app>'
+    azureSubscription: 'e0d55a0c-82b6-48a5-a957-dc70ede1f429'
+    WebAppName: 'Bens Web App'
     Package: $(System.ArtifactsDirectory)/**/*.zip
